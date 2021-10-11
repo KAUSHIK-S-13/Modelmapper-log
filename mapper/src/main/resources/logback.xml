@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name = "OUT" class = "ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="DEMO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>D:/JAVA/logger/log_info.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss}] - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>D:/JAVA/logger/archived/log_info.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!--Max Size of file to start Archive -->
+                <maxFileSize>50KB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+
+            <!-- Days till log history to keep -->
+            <maxHistory>3</maxHistory>
+        </rollingPolicy>
+
+    </appender>
+
+ <!--   <root level = "DEBUG">
+        <appender-ref ref = "DEMO"/>
+        <appender-ref ref = "OUT"/>
+    </root>-->
+    <root level = "INFO">
+        <appender-ref ref = "DEMO"/>
+        <appender-ref ref = "OUT"/>
+    </root>
+</configuration>

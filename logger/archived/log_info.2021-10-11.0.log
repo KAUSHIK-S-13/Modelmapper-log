@@ -1,0 +1,475 @@
+[2021-10-11 16:44:15] - Starting MapperApplication using Java 1.8.0_302 on DESKTOP-QPSJ4MJ with PID 10604 (D:\JAVA\mapper\target\classes started by user in D:\JAVA\mapper)
+[2021-10-11 16:44:15] - Running with Spring Boot v2.5.5, Spring v5.3.10
+[2021-10-11 16:44:15] - No active profile set, falling back to default profiles: default
+[2021-10-11 16:44:15] - Loading source class com.model.mapper.MapperApplication
+[2021-10-11 16:44:15] - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61d6015a
+[2021-10-11 16:44:15] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-10-11 16:44:15] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2021-10-11 16:44:15] - Identified candidate component class: file [D:\JAVA\mapper\target\classes\com\model\mapper\Controller\EmployeeController.class]
+[2021-10-11 16:44:15] - Ignored because not a concrete top-level class: file [D:\JAVA\mapper\target\classes\com\model\mapper\Repository\EmployeeRepository.class]
+[2021-10-11 16:44:15] - Identified candidate component class: file [D:\JAVA\mapper\target\classes\com\model\mapper\Service\impl\EmployeeImpl.class]
+[2021-10-11 16:44:16] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-10-11 16:44:16] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2021-10-11 16:44:16] - @EnableAutoConfiguration was declared on a class in the package 'com.model.mapper'. Automatic @Repository and @Entity scanning is enabled.
+[2021-10-11 16:44:16] - Scanning for JPA repositories in packages com.model.mapper.
+[2021-10-11 16:44:16] - Identified candidate component class: file [D:\JAVA\mapper\target\classes\com\model\mapper\Repository\EmployeeRepository.class]
+[2021-10-11 16:44:16] - Identified candidate component class: file [D:\JAVA\mapper\target\classes\com\model\mapper\Service\impl\EmployeeImpl.class]
+[2021-10-11 16:44:16] - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'transactionAttributeSource'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'transactionInterceptor'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+[2021-10-11 16:44:17] - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@e044b4a]
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'tomcatServletWebServerFactory'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'websocketServletWebServerCustomizer'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'servletWebServerFactoryCustomizer'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'servletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'tomcatServletWebServerFactoryCustomizer'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'tomcatServletWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'tomcatWebServerFactoryCustomizer'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'environment'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'tomcatWebServerFactoryCustomizer' via factory method to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'localeCharsetMappingsCustomizer'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'errorPageCustomizer'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration' via constructor to bean named 'server-org.springframework.boot.autoconfigure.web.ServerProperties'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'dispatcherServletRegistration'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'dispatcherServlet'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'dispatcherServlet' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'dispatcherServlet'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'dispatcherServletRegistration' via factory method to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'multipartConfigElement'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+[2021-10-11 16:44:17] - Creating shared instance of singleton bean 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration' via constructor to bean named 'spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties'
+[2021-10-11 16:44:17] - Autowiring by type from bean name 'errorPageCustomizer' via factory method to bean named 'dispatcherServletRegistration'
+[2021-10-11 16:44:18] - Code archive: C:\Users\user\.m2\repository\org\springframework\boot\spring-boot\2.5.5\spring-boot-2.5.5.jar
+[2021-10-11 16:44:18] - Code archive: C:\Users\user\.m2\repository\org\springframework\boot\spring-boot\2.5.5\spring-boot-2.5.5.jar
+[2021-10-11 16:44:18] - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+[2021-10-11 16:44:18] - Tomcat initialized with port(s): 8080 (http)
+[2021-10-11 16:44:18] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-10-11 16:44:18] - Starting service [Tomcat]
+[2021-10-11 16:44:18] - Starting Servlet engine: [Apache Tomcat/9.0.53]
+[2021-10-11 16:44:18] - Initializing Spring embedded WebApplicationContext
+[2021-10-11 16:44:18] - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+[2021-10-11 16:44:18] - Root WebApplicationContext: initialization completed in 3112 ms
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'requestContextFilter'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'formContentFilter'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'characterEncodingFilter'
+[2021-10-11 16:44:18] - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+[2021-10-11 16:44:18] - Mapping servlets: dispatcherServlet urls=[/]
+[2021-10-11 16:44:18] - Filter 'requestContextFilter' configured for use
+[2021-10-11 16:44:18] - Filter 'characterEncodingFilter' configured for use
+[2021-10-11 16:44:18] - Filter 'formContentFilter' configured for use
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'dataSourceScriptDatabaseInitializer'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'dataSource'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2021-10-11 16:44:18] - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+[2021-10-11 16:44:18] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-10-11 16:44:18] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'dataSource'
+[2021-10-11 16:44:18] - Autowiring by type from bean name 'dataSourceScriptDatabaseInitializer' via factory method to bean named 'spring.sql.init-org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'entityManagerFactory'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-10-11 16:44:18] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'dataSource'
+[2021-10-11 16:44:18] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties'
+[2021-10-11 16:44:18] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@50378a4'
+[2021-10-11 16:44:18] - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' via constructor to bean named 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'hikariPoolDataSourceMetadataProvider'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'entityManagerFactoryBuilder'
+[2021-10-11 16:44:18] - Creating shared instance of singleton bean 'jpaVendorAdapter'
+[2021-10-11 16:44:18] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+[2021-10-11 16:44:18] - Autowiring by type from bean name 'entityManagerFactoryBuilder' via factory method to bean named 'jpaVendorAdapter'
+[2021-10-11 16:44:18] - Autowiring by type from bean name 'entityManagerFactory' via factory method to bean named 'entityManagerFactoryBuilder'
+[2021-10-11 16:44:18] - Building JPA container EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:44:18] - PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: sun.misc.Launcher$AppClassLoader@18b4aac2
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/D:/JAVA/mapper/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.model.mapper.Model.Employee]
+	Mapping files names []
+	Properties []
+[2021-10-11 16:44:18] - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2021-10-11 16:44:18] - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2021-10-11 16:44:18] - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2021-10-11 16:44:19] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-10-11 16:44:19] - HHH000206: hibernate.properties not found
+[2021-10-11 16:44:19] - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2021-10-11 16:44:19] - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[2021-10-11 16:44:19] - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2021-10-11 16:44:19] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-10-11 16:44:19] - Adding type registration boolean -> org.hibernate.type.BooleanType@7915bca3
+[2021-10-11 16:44:19] - Adding type registration boolean -> org.hibernate.type.BooleanType@7915bca3
+[2021-10-11 16:44:19] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@7915bca3
+[2021-10-11 16:44:19] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1e43e323
+[2021-10-11 16:44:19] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@f91da5e
+[2021-10-11 16:44:19] - Adding type registration yes_no -> org.hibernate.type.YesNoType@48840594
+[2021-10-11 16:44:19] - Adding type registration byte -> org.hibernate.type.ByteType@1442f788
+[2021-10-11 16:44:19] - Adding type registration byte -> org.hibernate.type.ByteType@1442f788
+[2021-10-11 16:44:19] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1442f788
+[2021-10-11 16:44:19] - Adding type registration character -> org.hibernate.type.CharacterType@1bc49bc5
+[2021-10-11 16:44:19] - Adding type registration char -> org.hibernate.type.CharacterType@1bc49bc5
+[2021-10-11 16:44:19] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1bc49bc5
+[2021-10-11 16:44:19] - Adding type registration short -> org.hibernate.type.ShortType@24e83d19
+[2021-10-11 16:44:19] - Adding type registration short -> org.hibernate.type.ShortType@24e83d19
+[2021-10-11 16:44:19] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@24e83d19
+[2021-10-11 16:44:19] - Adding type registration integer -> org.hibernate.type.IntegerType@37e0292a
+[2021-10-11 16:44:19] - Adding type registration int -> org.hibernate.type.IntegerType@37e0292a
+[2021-10-11 16:44:19] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@37e0292a
+[2021-10-11 16:44:19] - Adding type registration long -> org.hibernate.type.LongType@44e93c1f
+[2021-10-11 16:44:19] - Adding type registration long -> org.hibernate.type.LongType@44e93c1f
+[2021-10-11 16:44:19] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@44e93c1f
+[2021-10-11 16:44:19] - Adding type registration float -> org.hibernate.type.FloatType@7c36db44
+[2021-10-11 16:44:19] - Adding type registration float -> org.hibernate.type.FloatType@7c36db44
+[2021-10-11 16:44:19] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7c36db44
+[2021-10-11 16:44:19] - Adding type registration double -> org.hibernate.type.DoubleType@78cd163b
+[2021-10-11 16:44:19] - Adding type registration double -> org.hibernate.type.DoubleType@78cd163b
+[2021-10-11 16:44:19] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@78cd163b
+[2021-10-11 16:44:19] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@336206d8
+[2021-10-11 16:44:19] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@336206d8
+[2021-10-11 16:44:19] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@711d1a52
+[2021-10-11 16:44:19] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@711d1a52
+[2021-10-11 16:44:19] - Adding type registration string -> org.hibernate.type.StringType@7718a40f
+[2021-10-11 16:44:19] - Adding type registration java.lang.String -> org.hibernate.type.StringType@7718a40f
+[2021-10-11 16:44:19] - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1a865273
+[2021-10-11 16:44:19] - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@44bd4b0a
+[2021-10-11 16:44:19] - Adding type registration url -> org.hibernate.type.UrlType@67c5ac52
+[2021-10-11 16:44:19] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@67c5ac52
+[2021-10-11 16:44:19] - Adding type registration Duration -> org.hibernate.type.DurationType@30e9ca13
+[2021-10-11 16:44:19] - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@30e9ca13
+[2021-10-11 16:44:19] - Adding type registration Instant -> org.hibernate.type.InstantType@1ac4ccad
+[2021-10-11 16:44:19] - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1ac4ccad
+[2021-10-11 16:44:19] - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@323f3c96
+[2021-10-11 16:44:19] - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@323f3c96
+[2021-10-11 16:44:19] - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@290d10ef
+[2021-10-11 16:44:19] - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@290d10ef
+[2021-10-11 16:44:19] - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@e9ef5b6
+[2021-10-11 16:44:19] - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@e9ef5b6
+[2021-10-11 16:44:19] - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@673919a7
+[2021-10-11 16:44:19] - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@673919a7
+[2021-10-11 16:44:19] - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@4c777e7b
+[2021-10-11 16:44:19] - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@4c777e7b
+[2021-10-11 16:44:19] - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6f49d153
+[2021-10-11 16:44:19] - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6f49d153
+[2021-10-11 16:44:19] - Adding type registration date -> org.hibernate.type.DateType@6944e53e
+[2021-10-11 16:44:19] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@6944e53e
+[2021-10-11 16:44:19] - Adding type registration time -> org.hibernate.type.TimeType@4674d90
+[2021-10-11 16:44:19] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4674d90
+[2021-10-11 16:44:19] - Adding type registration timestamp -> org.hibernate.type.TimestampType@2a3194c6
+[2021-10-11 16:44:19] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2a3194c6
+[2021-10-11 16:44:19] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2a3194c6
+[2021-10-11 16:44:19] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@38bb9d7a
+[2021-10-11 16:44:19] - Adding type registration calendar -> org.hibernate.type.CalendarType@554f0dfb
+[2021-10-11 16:44:19] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@554f0dfb
+[2021-10-11 16:44:19] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@554f0dfb
+[2021-10-11 16:44:19] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5b9396d3
+[2021-10-11 16:44:19] - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@5b3a7ef5
+[2021-10-11 16:44:19] - Adding type registration locale -> org.hibernate.type.LocaleType@767191b1
+[2021-10-11 16:44:19] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@767191b1
+[2021-10-11 16:44:19] - Adding type registration currency -> org.hibernate.type.CurrencyType@730f9695
+[2021-10-11 16:44:19] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@730f9695
+[2021-10-11 16:44:19] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1dba4e06
+[2021-10-11 16:44:19] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1dba4e06
+[2021-10-11 16:44:19] - Adding type registration class -> org.hibernate.type.ClassType@3374b5bc
+[2021-10-11 16:44:19] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3374b5bc
+[2021-10-11 16:44:19] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4047d2d9
+[2021-10-11 16:44:19] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4047d2d9
+[2021-10-11 16:44:19] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@22587507
+[2021-10-11 16:44:19] - Adding type registration binary -> org.hibernate.type.BinaryType@7add323c
+[2021-10-11 16:44:19] - Adding type registration byte[] -> org.hibernate.type.BinaryType@7add323c
+[2021-10-11 16:44:19] - Adding type registration [B -> org.hibernate.type.BinaryType@7add323c
+[2021-10-11 16:44:19] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@658255aa
+[2021-10-11 16:44:19] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@658255aa
+[2021-10-11 16:44:19] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@658255aa
+[2021-10-11 16:44:19] - Adding type registration row_version -> org.hibernate.type.RowVersionType@508a65bf
+[2021-10-11 16:44:19] - Adding type registration image -> org.hibernate.type.ImageType@210308d5
+[2021-10-11 16:44:19] - Adding type registration characters -> org.hibernate.type.CharArrayType@5d43409a
+[2021-10-11 16:44:19] - Adding type registration char[] -> org.hibernate.type.CharArrayType@5d43409a
+[2021-10-11 16:44:19] - Adding type registration [C -> org.hibernate.type.CharArrayType@5d43409a
+[2021-10-11 16:44:19] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1229a2b7
+[2021-10-11 16:44:19] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1229a2b7
+[2021-10-11 16:44:19] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1229a2b7
+[2021-10-11 16:44:19] - Adding type registration text -> org.hibernate.type.TextType@4fc3c165
+[2021-10-11 16:44:19] - Adding type registration ntext -> org.hibernate.type.NTextType@60f70249
+[2021-10-11 16:44:19] - Adding type registration blob -> org.hibernate.type.BlobType@5fa23c
+[2021-10-11 16:44:19] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5fa23c
+[2021-10-11 16:44:19] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6d1dcdff
+[2021-10-11 16:44:19] - Adding type registration clob -> org.hibernate.type.ClobType@6403e24c
+[2021-10-11 16:44:19] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6403e24c
+[2021-10-11 16:44:19] - Adding type registration nclob -> org.hibernate.type.NClobType@227a47
+[2021-10-11 16:44:19] - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@227a47
+[2021-10-11 16:44:19] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@70228253
+[2021-10-11 16:44:19] - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@26c47874
+[2021-10-11 16:44:19] - Adding type registration serializable -> org.hibernate.type.SerializableType@7a0e7ecd
+[2021-10-11 16:44:19] - Adding type registration object -> org.hibernate.type.ObjectType@6edcad64
+[2021-10-11 16:44:19] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6edcad64
+[2021-10-11 16:44:19] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6981f8f3
+[2021-10-11 16:44:19] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@623dcf2a
+[2021-10-11 16:44:19] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@2eae4349
+[2021-10-11 16:44:19] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@e84fb85
+[2021-10-11 16:44:19] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@68a4dcc6
+[2021-10-11 16:44:19] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@646c0a67
+[2021-10-11 16:44:19] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3804a9a8
+[2021-10-11 16:44:19] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@117525fe
+[2021-10-11 16:44:19] - Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5e5af8e1] into BootstrapContext; was [null]
+[2021-10-11 16:44:19] - ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5e5af8e1) [was null]
+[2021-10-11 16:44:19] - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@524a076e] into BootstrapContext; was [null]
+[2021-10-11 16:44:19] - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@5b5e7036] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@62dbe64e]
+[2021-10-11 16:44:19] - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5e5af8e1]
+[2021-10-11 16:44:19] - ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5e5af8e1]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2021-10-11 16:44:19] - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2021-10-11 16:44:19] - HikariPool-1 - configuration:
+[2021-10-11 16:44:19] - allowPoolSuspension................................false
+[2021-10-11 16:44:19] - autoCommit................................true
+[2021-10-11 16:44:19] - catalog................................none
+[2021-10-11 16:44:19] - connectionInitSql................................none
+[2021-10-11 16:44:19] - connectionTestQuery................................none
+[2021-10-11 16:44:19] - connectionTimeout................................30000
+[2021-10-11 16:44:19] - dataSource................................none
+[2021-10-11 16:44:19] - dataSourceClassName................................none
+[2021-10-11 16:44:19] - dataSourceJNDI................................none
+[2021-10-11 16:44:19] - dataSourceProperties................................{password=<masked>}
+[2021-10-11 16:44:19] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+[2021-10-11 16:44:19] - exceptionOverrideClassName................................none
+[2021-10-11 16:44:19] - healthCheckProperties................................{}
+[2021-10-11 16:44:19] - healthCheckRegistry................................none
+[2021-10-11 16:44:19] - idleTimeout................................600000
+[2021-10-11 16:44:19] - initializationFailTimeout................................1
+[2021-10-11 16:44:19] - isolateInternalQueries................................false
+[2021-10-11 16:44:19] - jdbcUrl................................jdbc:mysql://localhost:3306/modelmapper
+[2021-10-11 16:44:19] - keepaliveTime................................0
+[2021-10-11 16:44:19] - leakDetectionThreshold................................0
+[2021-10-11 16:44:19] - maxLifetime................................1800000
+[2021-10-11 16:44:19] - maximumPoolSize................................10
+[2021-10-11 16:44:19] - metricRegistry................................none
+[2021-10-11 16:44:19] - metricsTrackerFactory................................none
+[2021-10-11 16:44:19] - minimumIdle................................10
+[2021-10-11 16:44:19] - password................................<masked>
+[2021-10-11 16:44:19] - poolName................................"HikariPool-1"
+[2021-10-11 16:44:19] - readOnly................................false
+[2021-10-11 16:44:19] - registerMbeans................................false
+[2021-10-11 16:44:19] - scheduledExecutor................................none
+[2021-10-11 16:44:19] - schema................................none
+[2021-10-11 16:44:19] - threadFactory................................internal
+[2021-10-11 16:44:19] - transactionIsolation................................default
+[2021-10-11 16:44:19] - username................................"root"
+[2021-10-11 16:44:19] - validationTimeout................................5000
+[2021-10-11 16:44:19] - HikariPool-1 - Starting...
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5762658b
+[2021-10-11 16:44:20] - HikariPool-1 - Start completed.
+[2021-10-11 16:44:20] - Database ->
+       name : MySQL
+    version : 8.0.26
+      major : 8
+      minor : 0
+[2021-10-11 16:44:20] - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.26 (Revision: 9aae1e450989d62c06616c1dcda3e404ef84df70)
+      major : 8
+      minor : 0
+[2021-10-11 16:44:20] - JDBC version : 4.2
+[2021-10-11 16:44:20] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2021-10-11 16:44:20] - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[2021-10-11 16:44:20] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+[2021-10-11 16:44:20] - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@477b6451
+[2021-10-11 16:44:20] - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[2021-10-11 16:44:20] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@465b38e6] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4b960b5b]
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3331e658
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62561d95
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34f08acc
+[2021-10-11 16:44:20] - Binding entity from annotated class: com.model.mapper.Model.Employee
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32b90f2f
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@135a1d39
+[2021-10-11 16:44:20] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2021-10-11 16:44:20] - Import with entity name Employee
+[2021-10-11 16:44:20] - Bind entity com.model.mapper.Model.Employee on table emptest
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20fc5e89
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55706cef
+[2021-10-11 16:44:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(emptest), mappingColumn=emp_id, insertable=true, updatable=true, unique=false}
+[2021-10-11 16:44:20] - Not known whether passed class name [com.model.mapper.Model.Employee] is safe
+[2021-10-11 16:44:20] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.model.mapper.Model.Employee
+[2021-10-11 16:44:20] - MetadataSourceProcessor property id with lazy=false
+[2021-10-11 16:44:20] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d50fdf9
+[2021-10-11 16:44:20] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2021-10-11 16:44:20] - Attempting to locate auto-apply AttributeConverter for property [com.model.mapper.Model.Employee:id]
+[2021-10-11 16:44:20] - building SimpleValue for id
+[2021-10-11 16:44:20] - Building property id
+[2021-10-11 16:44:20] - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(emp_id)]), id, identity, , ...)
+[2021-10-11 16:44:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(emptest), mappingColumn=created_at, insertable=true, updatable=true, unique=false}
+[2021-10-11 16:44:20] - MetadataSourceProcessor property createdAt with lazy=false
+[2021-10-11 16:44:20] - Attempting to locate auto-apply AttributeConverter for property [com.model.mapper.Model.Employee:createdAt]
+[2021-10-11 16:44:20] - building SimpleValue for createdAt
+[2021-10-11 16:44:20] - Building property createdAt
+[2021-10-11 16:44:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(emptest), mappingColumn=emp_name, insertable=true, updatable=true, unique=false}
+[2021-10-11 16:44:20] - MetadataSourceProcessor property empname with lazy=false
+[2021-10-11 16:44:20] - Attempting to locate auto-apply AttributeConverter for property [com.model.mapper.Model.Employee:empname]
+[2021-10-11 16:44:20] - building SimpleValue for empname
+[2021-10-11 16:44:20] - Building property empname
+[2021-10-11 16:44:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(emptest), mappingColumn=is_active, insertable=true, updatable=true, unique=false}
+[2021-10-11 16:44:20] - MetadataSourceProcessor property isActive with lazy=false
+[2021-10-11 16:44:20] - Attempting to locate auto-apply AttributeConverter for property [com.model.mapper.Model.Employee:isActive]
+[2021-10-11 16:44:20] - building SimpleValue for isActive
+[2021-10-11 16:44:20] - Building property isActive
+[2021-10-11 16:44:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(emptest), mappingColumn=is_deleted, insertable=true, updatable=true, unique=false}
+[2021-10-11 16:44:20] - MetadataSourceProcessor property isDeleted with lazy=false
+[2021-10-11 16:44:20] - Attempting to locate auto-apply AttributeConverter for property [com.model.mapper.Model.Employee:isDeleted]
+[2021-10-11 16:44:20] - building SimpleValue for isDeleted
+[2021-10-11 16:44:20] - Building property isDeleted
+[2021-10-11 16:44:20] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(emptest), mappingColumn=updated_at, insertable=true, updatable=true, unique=false}
+[2021-10-11 16:44:20] - MetadataSourceProcessor property updatedAt with lazy=false
+[2021-10-11 16:44:20] - Attempting to locate auto-apply AttributeConverter for property [com.model.mapper.Model.Employee:updatedAt]
+[2021-10-11 16:44:20] - building SimpleValue for updatedAt
+[2021-10-11 16:44:20] - Building property updatedAt
+[2021-10-11 16:44:20] - Starting fillSimpleValue for id
+[2021-10-11 16:44:20] - Starting fillSimpleValue for createdAt
+[2021-10-11 16:44:20] - Starting fillSimpleValue for empname
+[2021-10-11 16:44:20] - Starting fillSimpleValue for isActive
+[2021-10-11 16:44:20] - Starting fillSimpleValue for isDeleted
+[2021-10-11 16:44:20] - Starting fillSimpleValue for updatedAt
+[2021-10-11 16:44:20] - Forcing column [emp_id] to be non-null as it is part of the primary key for table [emptest]
+[2021-10-11 16:44:20] - Building session factory
+[2021-10-11 16:44:20] - SessionFactory name : null
+[2021-10-11 16:44:20] - Automatic flush during beforeCompletion(): enabled
+[2021-10-11 16:44:20] - Automatic session close at end of transaction: disabled
+[2021-10-11 16:44:20] - Statistics: disabled
+[2021-10-11 16:44:20] - Deleted entity synthetic identifier rollback: disabled
+[2021-10-11 16:44:20] - Default entity-mode: pojo
+[2021-10-11 16:44:20] - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2021-10-11 16:44:20] - Allow initialization of lazy state outside session : disabled
+[2021-10-11 16:44:20] - Using BatchFetchStyle : LEGACY
+[2021-10-11 16:44:20] - Default batch fetch size: -1
+[2021-10-11 16:44:20] - Maximum outer join fetch depth: 2
+[2021-10-11 16:44:20] - Default null ordering: NONE
+[2021-10-11 16:44:20] - Order SQL updates by primary key: disabled
+[2021-10-11 16:44:20] - Order SQL inserts for batching: disabled
+[2021-10-11 16:44:20] - multi-tenancy strategy : NONE
+[2021-10-11 16:44:20] - JTA Track by Thread: enabled
+[2021-10-11 16:44:20] - Query language substitutions: {}
+[2021-10-11 16:44:20] - Named query checking : enabled
+[2021-10-11 16:44:20] - Second-level cache: disabled
+[2021-10-11 16:44:20] - Second-level query cache: disabled
+[2021-10-11 16:44:20] - Second-level query cache factory: null
+[2021-10-11 16:44:20] - Second-level cache region prefix: null
+[2021-10-11 16:44:20] - Optimize second-level cache for minimal puts: disabled
+[2021-10-11 16:44:20] - Structured second-level cache entries: disabled
+[2021-10-11 16:44:20] - Second-level cache direct-reference entries: disabled
+[2021-10-11 16:44:20] - Automatic eviction of collection cache: disabled
+[2021-10-11 16:44:20] - JDBC batch size: 15
+[2021-10-11 16:44:20] - JDBC batch updates for versioned data: enabled
+[2021-10-11 16:44:20] - Scrollable result sets: enabled
+[2021-10-11 16:44:20] - Wrap result sets: disabled
+[2021-10-11 16:44:20] - JDBC3 getGeneratedKeys(): enabled
+[2021-10-11 16:44:20] - JDBC result set fetch size: null
+[2021-10-11 16:44:20] - Connection release mode: ON_CLOSE
+[2021-10-11 16:44:20] - Generate SQL with comments: disabled
+[2021-10-11 16:44:20] - JPA compliance - query : disabled
+[2021-10-11 16:44:20] - JPA compliance - closed-handling : disabled
+[2021-10-11 16:44:20] - JPA compliance - lists : disabled
+[2021-10-11 16:44:20] - JPA compliance - transactions : disabled
+[2021-10-11 16:44:20] - Session factory constructed with filter configurations : {}
+[2021-10-11 16:44:20] - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=1.8, file.encoding.pkg=sun.io, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@2173a742, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\charsets.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\access-bridge-64.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\cldrdata.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\dnsns.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\jaccess.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\jfxrt.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\localedata.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\nashorn.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\sunec.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\sunjce_provider.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\sunmscapi.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\sunpkcs11.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext\zipfs.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\jce.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\jfr.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\jfxswt.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\jsse.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\management-agent.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\resources.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\rt.jar;D:\JAVA\mapper\target\classes;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.5.5\spring-boot-starter-data-jpa-2.5.5.jar;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.5.5\spring-boot-starter-aop-2.5.5.jar;C:\Users\user\.m2\repository\org\springframework\spring-aop\5.3.10\spring-aop-5.3.10.jar;C:\Users\user\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.5.5\spring-boot-starter-jdbc-2.5.5.jar;C:\Users\user\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\user\.m2\repository\org\springframework\spring-jdbc\5.3.10\spring-jdbc-5.3.10.jar;C:\Users\user\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\user\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\user\.m2\repository\org\hibernate\hibernate-core\5.4.32.Final\hibernate-core-5.4.32.Final.jar;C:\Users\user\.m2\repository\org\jboss\logging\jboss-logging\3.4.2.Final\jboss-logging-3.4.2.Final.jar;C:\Users\user\.m2\repository\org\javassist\javassist\3.27.0-GA\javassist-3.27.0-GA.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.10.22\byte-buddy-1.10.22.jar;C:\Users\user\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\user\.m2\repository\org\jboss\jandex\2.2.3.Final\jandex-2.2.3.Final.jar;C:\Users\user\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\user\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\user\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\user\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.5\jaxb-runtime-2.3.5.jar;C:\Users\user\.m2\repository\org\glassfish\jaxb\txw2\2.3.5\txw2-2.3.5.jar;C:\Users\user\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar;C:\Users\user\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\user\.m2\repository\org\springframework\data\spring-data-jpa\2.5.5\spring-data-jpa-2.5.5.jar;C:\Users\user\.m2\repository\org\springframework\data\spring-data-commons\2.5.5\spring-data-commons-2.5.5.jar;C:\Users\user\.m2\repository\org\springframework\spring-orm\5.3.10\spring-orm-5.3.10.jar;C:\Users\user\.m2\repository\org\springframework\spring-context\5.3.10\spring-context-5.3.10.jar;C:\Users\user\.m2\repository\org\springframework\spring-tx\5.3.10\spring-tx-5.3.10.jar;C:\Users\user\.m2\repository\org\springframework\spring-beans\5.3.10\spring-beans-5.3.10.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\user\.m2\repository\org\springframework\spring-aspects\5.3.10\spring-aspects-5.3.10.jar;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.5\spring-boot-starter-web-2.5.5.jar;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.5\spring-boot-starter-2.5.5.jar;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot\2.5.5\spring-boot-2.5.5.jar;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.5\spring-boot-autoconfigure-2.5.5.jar;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.5\spring-boot-starter-logging-2.5.5.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\user\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\user\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\user\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.5\spring-boot-starter-json-2.5.5.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.5\jackson-databind-2.12.5.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.5\jackson-annotations-2.12.5.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.5\jackson-core-2.12.5.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.5\jackson-datatype-jdk8-2.12.5.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.5\jackson-datatype-jsr310-2.12.5.jar;C:\Users\user\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.5\jackson-module-parameter-names-2.12.5.jar;C:\Users\user\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.5\spring-boot-starter-tomcat-2.5.5.jar;C:\Users\user\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.53\tomcat-embed-core-9.0.53.jar;C:\Users\user\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.53\tomcat-embed-el-9.0.53.jar;C:\Users\user\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.53\tomcat-embed-websocket-9.0.53.jar;C:\Users\user\.m2\repository\org\springframework\spring-web\5.3.10\spring-web-5.3.10.jar;C:\Users\user\.m2\repository\org\springframework\spring-webmvc\5.3.10\spring-webmvc-5.3.10.jar;C:\Users\user\.m2\repository\org\springframework\spring-expression\5.3.10\spring-expression-5.3.10.jar;C:\Users\user\.m2\repository\mysql\mysql-connector-java\8.0.26\mysql-connector-java-8.0.26.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\user\.m2\repository\org\modelmapper\modelmapper\2.4.4\modelmapper-2.4.4.jar;C:\Users\user\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\user\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\user\.m2\repository\org\springframework\spring-core\5.3.10\spring-core-5.3.10.jar;C:\Users\user\.m2\repository\org\springframework\spring-jcl\5.3.10\spring-jcl-5.3.10.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\lib\idea_rt.jar, java.vm.vendor=Amazon.com Inc., sun.arch.data.model=64, user.variant=, java.vendor.url=https://aws.amazon.com/corretto/, catalina.useNaming=false, user.timezone=Asia/Calcutta, os.name=Windows 10, java.vm.specification.version=1.8, javax.persistence.validation.mode=AUTO, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Users\user\.jdks\corretto-1.8.0_302\jre\bin, sun.java.command=com.model.mapper.MapperApplication, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@706ceca6, javax.persistence.sharedCache.mode=UNSPECIFIED, sun.cpu.endian=little, user.home=C:\Users\user, user.language=en, java.specification.vendor=Oracle Corporation, java.home=C:\Users\user\.jdks\corretto-1.8.0_302\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, sun.boot.class.path=C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\resources.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\rt.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\sunrsasign.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\jsse.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\jce.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\charsets.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\jfr.jar;C:\Users\user\.jdks\corretto-1.8.0_302\jre\classes, hibernate.hbm2ddl.auto=update, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_302-b08, user.name=user, path.separator=;, os.version=10.0, java.endorsed.dirs=C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\endorsed, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=OpenJDK 64-Bit Server VM, java.vendor.url.bug=https://github.com/corretto/corretto-8/issues/, java.io.tmpdir=C:\Users\user\AppData\Local\Temp\, catalina.home=C:\Users\user\AppData\Local\Temp\tomcat.8080.3225743141265760281, java.version=1.8.0_302, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=D:\JAVA\mapper, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=10604, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, CONSOLE_LOG_CHARSET=UTF-8, catalina.base=C:\Users\user\AppData\Local\Temp\tomcat.8080.3225743141265760281, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@7f6329cb, java.library.path=C:\Users\user\.jdks\corretto-1.8.0_302\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jre1.8.0_291\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;., java.vendor=Amazon.com Inc., java.vm.info=mixed mode, java.vm.version=25.302-b08, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, java.ext.dirs=C:\Users\user\.jdks\corretto-1.8.0_302\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, hibernate.connection.datasource=HikariDataSource (HikariPool-1), java.class.version=52.0}
+[2021-10-11 16:44:20] - Skipping JACC integration as it was not enabled
+[2021-10-11 16:44:20] - Instantiated session factory
+[2021-10-11 16:44:20] - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@465b38e6] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@6cae2e4d]
+[2021-10-11 16:44:20] - Not known whether passed class name [com.model.mapper.Model.Employee] is safe
+[2021-10-11 16:44:20] - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.model.mapper.Model.Employee
+[2021-10-11 16:44:21] - Static SQL for entity: com.model.mapper.Model.Employee
+[2021-10-11 16:44:21] -  Version select: select emp_id from emptest where emp_id =?
+[2021-10-11 16:44:21] -  Snapshot select: select employee_.emp_id, employee_.created_at as created_2_0_, employee_.emp_name as emp_name3_0_, employee_.is_active as is_activ4_0_, employee_.is_deleted as is_delet5_0_, employee_.updated_at as updated_6_0_ from emptest employee_ where employee_.emp_id=?
+[2021-10-11 16:44:21] -  Insert 0: insert into emptest (created_at, emp_name, is_active, is_deleted, updated_at, emp_id) values (?, ?, ?, ?, ?, ?)
+[2021-10-11 16:44:21] -  Update 0: update emptest set created_at=?, emp_name=?, is_active=?, is_deleted=?, updated_at=? where emp_id=?
+[2021-10-11 16:44:21] -  Delete 0: delete from emptest where emp_id=?
+[2021-10-11 16:44:21] -  Identity insert: insert into emptest (created_at, emp_name, is_active, is_deleted, updated_at) values (?, ?, ?, ?, ?)
+[2021-10-11 16:44:21] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@b379bc6]
+[2021-10-11 16:44:21] - Visiting attribute path : createdAt
+[2021-10-11 16:44:21] - Visiting attribute path : empname
+[2021-10-11 16:44:21] - Visiting attribute path : isActive
+[2021-10-11 16:44:21] - Visiting attribute path : isDeleted
+[2021-10-11 16:44:21] - Visiting attribute path : updatedAt
+[2021-10-11 16:44:21] - Building LoadPlan...
+[2021-10-11 16:44:21] - processing queryspace <gen:0>
+[2021-10-11 16:44:21] - LoadPlan(entity=com.model.mapper.Model.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.model.mapper.Model.Employee, querySpaceUid=<gen:0>, path=com.model.mapper.Model.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.model.mapper.Model.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {emp_id1_0_0_}
+
+[2021-10-11 16:44:21] - Static select for entity com.model.mapper.Model.Employee [NONE]: select employee0_.emp_id as emp_id1_0_0_, employee0_.created_at as created_2_0_0_, employee0_.emp_name as emp_name3_0_0_, employee0_.is_active as is_activ4_0_0_, employee0_.is_deleted as is_delet5_0_0_, employee0_.updated_at as updated_6_0_0_ from emptest employee0_ where employee0_.emp_id=?
+[2021-10-11 16:44:21] - No alter strings for table : emptest
+[2021-10-11 16:44:21] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-10-11 16:44:21] - Checking 0 named HQL queries
+[2021-10-11 16:44:21] - Checking 0 named SQL queries
+[2021-10-11 16:44:21] - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@70881123
+[2021-10-11 16:44:21] - Registering SessionFactory: 59f50028-5bfd-40f8-a2af-04db60de4316 (<unnamed>)
+[2021-10-11 16:44:21] - Not binding SessionFactory to JNDI, no JNDI name configured
+[2021-10-11 16:44:21] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:44:21] - Creating shared instance of singleton bean 'mapperApplication'
+[2021-10-11 16:44:21] - Creating shared instance of singleton bean 'employeeController'
+[2021-10-11 16:44:21] - Creating shared instance of singleton bean 'employeeImpl'
+[2021-10-11 16:44:21] - Creating shared instance of singleton bean 'employeeRepository'

@@ -1,0 +1,225 @@
+[2021-10-11 16:44:50] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-10-11 16:44:50] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-10-11 16:44:58] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-10-11 16:44:58] - Initializing Servlet 'dispatcherServlet'
+[2021-10-11 16:44:58] - Detected StandardServletMultipartResolver
+[2021-10-11 16:44:58] - Detected AcceptHeaderLocaleResolver
+[2021-10-11 16:44:58] - Detected FixedThemeResolver
+[2021-10-11 16:44:58] - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@819fb19
+[2021-10-11 16:44:58] - Detected org.springframework.web.servlet.support.SessionFlashMapManager@356b6b5d
+[2021-10-11 16:44:58] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2021-10-11 16:44:58] - Completed initialization in 3 ms
+[2021-10-11 16:44:58] - GET "/employee/2", parameters={}
+[2021-10-11 16:44:58] - Mapped to com.model.mapper.Controller.EmployeeController#FindByUserId(int)
+[2021-10-11 16:44:58] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-10-11 16:44:58] - Found thread-bound EntityManager [SessionImpl(309696426<open>)] for JPA transaction
+[2021-10-11 16:44:58] - Creating new transaction with name [com.model.mapper.Service.impl.EmployeeImpl.FindByUserId]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2021-10-11 16:44:58] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-10-11 16:44:58] - begin
+[2021-10-11 16:44:58] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4be98c3b]
+[2021-10-11 16:44:58] - Found thread-bound EntityManager [SessionImpl(309696426<open>)] for JPA transaction
+[2021-10-11 16:44:58] - Participating in existing transaction
+[2021-10-11 16:44:58] - select employee0_.emp_id as emp_id1_0_0_, employee0_.created_at as created_2_0_0_, employee0_.emp_name as emp_name3_0_0_, employee0_.is_active as is_activ4_0_0_, employee0_.is_deleted as is_delet5_0_0_, employee0_.updated_at as updated_6_0_0_ from emptest employee0_ where employee0_.emp_id=?
+[2021-10-11 16:44:58] - Done entity load : com.model.mapper.Model.Employee#2
+[2021-10-11 16:44:58] - Initiating transaction commit
+[2021-10-11 16:44:58] - Committing JPA transaction on EntityManager [SessionImpl(309696426<open>)]
+[2021-10-11 16:44:58] - committing
+[2021-10-11 16:44:58] - Not closing pre-bound JPA EntityManager after transaction
+[2021-10-11 16:44:58] - check message1
+[2021-10-11 16:44:58] - check message2
+[2021-10-11 16:44:58] - check message3
+[2021-10-11 16:44:58] - check message4
+[2021-10-11 16:44:58] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-10-11 16:44:58] - Writing [com.model.mapper.BaseResponse.BaseResponse@30af99f5]
+[2021-10-11 16:44:58] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-10-11 16:44:58] - Completed 200 OK
+[2021-10-11 16:45:05] - GET "/employee/1", parameters={}
+[2021-10-11 16:45:05] - Mapped to com.model.mapper.Controller.EmployeeController#FindByUserId(int)
+[2021-10-11 16:45:05] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-10-11 16:45:05] - Found thread-bound EntityManager [SessionImpl(1903453729<open>)] for JPA transaction
+[2021-10-11 16:45:05] - Creating new transaction with name [com.model.mapper.Service.impl.EmployeeImpl.FindByUserId]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2021-10-11 16:45:05] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2021-10-11 16:45:05] - begin
+[2021-10-11 16:45:05] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@7fb3967f]
+[2021-10-11 16:45:05] - Found thread-bound EntityManager [SessionImpl(1903453729<open>)] for JPA transaction
+[2021-10-11 16:45:05] - Participating in existing transaction
+[2021-10-11 16:45:05] - select employee0_.emp_id as emp_id1_0_0_, employee0_.created_at as created_2_0_0_, employee0_.emp_name as emp_name3_0_0_, employee0_.is_active as is_activ4_0_0_, employee0_.is_deleted as is_delet5_0_0_, employee0_.updated_at as updated_6_0_0_ from emptest employee0_ where employee0_.emp_id=?
+[2021-10-11 16:45:05] - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[2021-10-11 16:45:05] - Resolving attributes for [com.model.mapper.Model.Employee#1]
+[2021-10-11 16:45:05] - Processing attribute `createdAt` : value = 2021-10-09 18:48:36.179
+[2021-10-11 16:45:05] - Attribute (`createdAt`)  - enhanced for lazy-loading? - false
+[2021-10-11 16:45:05] - Processing attribute `empname` : value = kaushik
+[2021-10-11 16:45:05] - Attribute (`empname`)  - enhanced for lazy-loading? - false
+[2021-10-11 16:45:05] - Processing attribute `isActive` : value = 0
+[2021-10-11 16:45:05] - Attribute (`isActive`)  - enhanced for lazy-loading? - false
+[2021-10-11 16:45:05] - Processing attribute `isDeleted` : value = 0
+[2021-10-11 16:45:05] - Attribute (`isDeleted`)  - enhanced for lazy-loading? - false
+[2021-10-11 16:45:05] - Processing attribute `updatedAt` : value = 2021-10-09 18:48:36.179
+[2021-10-11 16:45:05] - Attribute (`updatedAt`)  - enhanced for lazy-loading? - false
+[2021-10-11 16:45:05] - Done materializing entity [com.model.mapper.Model.Employee#1]
+[2021-10-11 16:45:05] - Done entity load : com.model.mapper.Model.Employee#1
+[2021-10-11 16:45:05] - Initiating transaction commit
+[2021-10-11 16:45:05] - Committing JPA transaction on EntityManager [SessionImpl(1903453729<open>)]
+[2021-10-11 16:45:05] - committing
+[2021-10-11 16:45:05] - Processing flush-time cascades
+[2021-10-11 16:45:05] - Dirty checking collections
+[2021-10-11 16:45:05] - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[2021-10-11 16:45:05] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2021-10-11 16:45:05] - Listing entities:
+[2021-10-11 16:45:05] - com.model.mapper.Model.Employee{empname=kaushik, createdAt=2021-10-09 18:48:36.179, isDeleted=0, id=1, isActive=0, updatedAt=2021-10-09 18:48:36.179}
+[2021-10-11 16:45:05] - Not closing pre-bound JPA EntityManager after transaction
+[2021-10-11 16:45:05] - check message1
+[2021-10-11 16:45:05] - check message2
+[2021-10-11 16:45:05] - check message3
+[2021-10-11 16:45:05] - check message4
+[2021-10-11 16:45:05] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-10-11 16:45:05] - Writing [com.model.mapper.BaseResponse.BaseResponse@5dc59313]
+[2021-10-11 16:45:05] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2021-10-11 16:45:05] - Completed 200 OK
+[2021-10-11 16:45:20] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-10-11 16:45:20] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-10-11 16:45:50] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-10-11 16:45:50] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-10-11 16:46:20] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2021-10-11 16:46:20] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2021-10-11 16:46:30] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2021-10-11 16:46:30] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61d6015a, started on Mon Oct 11 16:44:15 IST 2021
+[2021-10-11 16:46:30] - Stopping beans in phase 2147483647
+[2021-10-11 16:46:30] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2021-10-11 16:46:30] - Stopping beans in phase 2147483646
+[2021-10-11 16:46:31] - Bean 'webServerStartStop' completed its stop procedure
+[2021-10-11 16:46:31] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-10-11 16:46:31] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:46:31] - HHH000031: Closing
+[2021-10-11 16:46:31] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@74c9e29] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6cae2e4d]
+[2021-10-11 16:46:31] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2021-10-11 16:46:31] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2021-10-11 16:46:31] - HikariPool-1 - Shutdown initiated...
+[2021-10-11 16:46:31] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5762658b: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@477b6451: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3331e658: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@62561d95: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34f08acc: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@32b90f2f: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@135a1d39: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20fc5e89: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55706cef: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4d50fdf9: (connection evicted)
+[2021-10-11 16:46:31] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2021-10-11 16:46:31] - HikariPool-1 - Shutdown completed.
+[2021-10-11 16:46:55] - Starting MapperApplication using Java 1.8.0_302 on DESKTOP-QPSJ4MJ with PID 2184 (D:\JAVA\mapper\target\classes started by user in D:\JAVA\mapper)
+[2021-10-11 16:46:55] - No active profile set, falling back to default profiles: default
+[2021-10-11 16:46:56] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-10-11 16:46:56] - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+[2021-10-11 16:46:57] - Tomcat initialized with port(s): 8080 (http)
+[2021-10-11 16:46:57] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-10-11 16:46:57] - Starting service [Tomcat]
+[2021-10-11 16:46:57] - Starting Servlet engine: [Apache Tomcat/9.0.53]
+[2021-10-11 16:46:58] - Initializing Spring embedded WebApplicationContext
+[2021-10-11 16:46:58] - Root WebApplicationContext: initialization completed in 2594 ms
+[2021-10-11 16:46:58] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-10-11 16:46:58] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-10-11 16:46:58] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-10-11 16:46:59] - HikariPool-1 - Starting...
+[2021-10-11 16:46:59] - HikariPool-1 - Start completed.
+[2021-10-11 16:46:59] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2021-10-11 16:47:00] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-10-11 16:47:00] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:47:01] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-10-11 16:47:01] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-10-11 16:47:01] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-10-11 16:47:01] - Started MapperApplication in 7.266 seconds (JVM running for 8.453)
+[2021-10-11 16:47:10] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-10-11 16:47:10] - Initializing Servlet 'dispatcherServlet'
+[2021-10-11 16:47:10] - Completed initialization in 3 ms
+[2021-10-11 16:47:10] - check message1
+[2021-10-11 16:47:10] - check message2
+[2021-10-11 16:47:10] - check message3
+[2021-10-11 16:47:53] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:47:53] - HikariPool-1 - Shutdown initiated...
+[2021-10-11 16:47:53] - HikariPool-1 - Shutdown completed.
+[2021-10-11 16:48:11] - Starting MapperApplication using Java 1.8.0_302 on DESKTOP-QPSJ4MJ with PID 1912 (D:\JAVA\mapper\target\classes started by user in D:\JAVA\mapper)
+[2021-10-11 16:48:11] - No active profile set, falling back to default profiles: default
+[2021-10-11 16:48:12] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-10-11 16:48:12] - Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+[2021-10-11 16:48:13] - Tomcat initialized with port(s): 8080 (http)
+[2021-10-11 16:48:13] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-10-11 16:48:13] - Starting service [Tomcat]
+[2021-10-11 16:48:13] - Starting Servlet engine: [Apache Tomcat/9.0.53]
+[2021-10-11 16:48:13] - Initializing Spring embedded WebApplicationContext
+[2021-10-11 16:48:13] - Root WebApplicationContext: initialization completed in 2599 ms
+[2021-10-11 16:48:14] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-10-11 16:48:14] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-10-11 16:48:14] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-10-11 16:48:14] - HikariPool-1 - Starting...
+[2021-10-11 16:48:15] - HikariPool-1 - Start completed.
+[2021-10-11 16:48:15] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2021-10-11 16:48:16] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-10-11 16:48:16] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:48:16] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-10-11 16:48:17] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-10-11 16:48:17] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-10-11 16:48:17] - Started MapperApplication in 6.945 seconds (JVM running for 8.1)
+[2021-10-11 16:48:28] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-10-11 16:48:28] - Initializing Servlet 'dispatcherServlet'
+[2021-10-11 16:48:28] - Completed initialization in 2 ms
+[2021-10-11 16:48:34] - check message1
+[2021-10-11 16:48:34] - check message2
+[2021-10-11 16:48:34] - check message3
+[2021-10-11 16:51:34] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:51:34] - HikariPool-1 - Shutdown initiated...
+[2021-10-11 16:51:34] - HikariPool-1 - Shutdown completed.
+[2021-10-11 16:51:44] - Starting MapperApplication using Java 1.8.0_302 on DESKTOP-QPSJ4MJ with PID 7236 (D:\JAVA\mapper\target\classes started by user in D:\JAVA\mapper)
+[2021-10-11 16:51:44] - No active profile set, falling back to default profiles: default
+[2021-10-11 16:51:46] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-10-11 16:51:46] - Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+[2021-10-11 16:51:47] - Tomcat initialized with port(s): 8080 (http)
+[2021-10-11 16:51:47] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-10-11 16:51:47] - Starting service [Tomcat]
+[2021-10-11 16:51:47] - Starting Servlet engine: [Apache Tomcat/9.0.53]
+[2021-10-11 16:51:47] - Initializing Spring embedded WebApplicationContext
+[2021-10-11 16:51:47] - Root WebApplicationContext: initialization completed in 3062 ms
+[2021-10-11 16:51:48] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-10-11 16:51:48] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-10-11 16:51:48] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-10-11 16:51:48] - HikariPool-1 - Starting...
+[2021-10-11 16:51:49] - HikariPool-1 - Start completed.
+[2021-10-11 16:51:49] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2021-10-11 16:51:50] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-10-11 16:51:50] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:51:51] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-10-11 16:51:51] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-10-11 16:51:51] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-10-11 16:51:51] - Started MapperApplication in 7.769 seconds (JVM running for 8.851)
+[2021-10-11 16:51:57] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-10-11 16:51:57] - Initializing Servlet 'dispatcherServlet'
+[2021-10-11 16:51:57] - Completed initialization in 2 ms
+[2021-10-11 16:51:57] - check message1
+[2021-10-11 16:51:57] - check message2
+[2021-10-11 16:51:58] - check message3
+[2021-10-11 16:53:47] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:53:47] - HikariPool-1 - Shutdown initiated...
+[2021-10-11 16:53:47] - HikariPool-1 - Shutdown completed.
+[2021-10-11 16:53:55] - Starting MapperApplication using Java 1.8.0_302 on DESKTOP-QPSJ4MJ with PID 3092 (D:\JAVA\mapper\target\classes started by user in D:\JAVA\mapper)
+[2021-10-11 16:53:55] - No active profile set, falling back to default profiles: default
+[2021-10-11 16:53:57] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-10-11 16:53:57] - Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+[2021-10-11 16:53:58] - Tomcat initialized with port(s): 8080 (http)
+[2021-10-11 16:53:58] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-10-11 16:53:58] - Starting service [Tomcat]
+[2021-10-11 16:53:58] - Starting Servlet engine: [Apache Tomcat/9.0.53]
+[2021-10-11 16:53:58] - Initializing Spring embedded WebApplicationContext
+[2021-10-11 16:53:58] - Root WebApplicationContext: initialization completed in 2718 ms
+[2021-10-11 16:53:59] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-10-11 16:53:59] - HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-10-11 16:53:59] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-10-11 16:53:59] - HikariPool-1 - Starting...
+[2021-10-11 16:53:59] - HikariPool-1 - Start completed.
+[2021-10-11 16:53:59] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2021-10-11 16:54:00] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-10-11 16:54:00] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-10-11 16:54:01] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-10-11 16:54:01] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-10-11 16:54:02] - Tomcat started on port(s): 8080 (http) with context path ''
+[2021-10-11 16:54:02] - Started MapperApplication in 7.094 seconds (JVM running for 8.465)
